@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="flex-1">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-[#2C001E] to-[#5E2750] text-white">
+      <div className="bg-gradient-to-r from-[#000000] to-[#4f4c4f] text-white">
         <div className="max-w-7xl mx-auto px-4 py-20 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -58,7 +58,7 @@ const Home = () => {
             </p>
             <Link
               to="/download"
-              className="inline-flex items-center bg-[#E95420] text-white px-8 py-3 rounded-md hover:bg-[#C7431B] transition-colors"
+              className="inline-flex items-center bg-[#fcf7fc] text-black px-8 py-3 rounded-md hover:bg-[#C7431B] transition-colors"
             >
               Download Now
               <ArrowRight className="ml-2" />

@@ -26,7 +26,7 @@ const Download = () => {
               <li>• 64-bit processor</li>
             </ul>
             <button 
-              className="w-full bg-[#E95420] text-white px-6 py-3 rounded-md hover:bg-[#C7431B] transition-colors flex items-center justify-center"
+              className="w-full bg-[#000000] text-white px-6 py-3 rounded-md hover:bg-[#C7431B] transition-colors flex items-center justify-center"
               onClick={() => alert("ISO download link will be provided by you")}
             >
               <DownloadIcon className="mr-2" />
@@ -47,7 +47,7 @@ const Download = () => {
               <li>• 64-bit processor</li>
             </ul>
             <button 
-              className="w-full bg-[#E95420] text-white px-6 py-3 rounded-md hover:bg-[#C7431B] transition-colors flex items-center justify-center"
+              className="w-full bg-[#000000] text-white px-6 py-3 rounded-md hover:bg-[#C7431B] transition-colors flex items-center justify-center"
               onClick={() => alert("ISO download link will be provided by you")}
             >
               <DownloadIcon className="mr-2" />

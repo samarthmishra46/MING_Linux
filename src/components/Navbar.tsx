@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from './Logo';
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#2C001E] text-white">
+    <nav className="bg-[#000000] text-white fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2">
-              <Logo size={40} className="text-[#E95420]" />
-              <div className="flex flex-col">
-                <span className="text-xl font-bold leading-none">MING</span>
-                <span className="text-sm text-gray-400">LINUX</span>
-              </div>
+            <Link to="/">
+              <img
+                src="ming-removebg-preview.ico"
+                alt="MING Linux Logo"
+                height={200}
+                width={200}
+              />
             </Link>
           </div>
           <div className="flex space-x-8">
@@ -31,6 +31,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;

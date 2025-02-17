@@ -18,13 +18,13 @@ const Donate = () => {
             <h2 className="text-2xl font-semibold mb-6">Choose Your Contribution</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-              <button className="p-4 border-2 border-[#E95420] rounded-md hover:bg-[#E95420] hover:text-white transition-colors">
+              <button className="p-4 border-2 border-[#000000] rounded-md hover:bg-[#000000] hover:text-white transition-color">
                 $5
               </button>
-              <button className="p-4 border-2 border-[#E95420] rounded-md hover:bg-[#E95420] hover:text-white transition-colors">
+              <button className="p-4 border-2 border-[#000000] rounded-md hover:bg-[#000000] hover:text-white transition-colors">
                 $10
               </button>
-              <button className="p-4 border-2 border-[#E95420] rounded-md hover:bg-[#E95420] hover:text-white transition-colors">
+              <button className="p-4 border-2 border-[#000000] rounded-md hover:bg-[#000000] hover:text-white transition-colors">
                 $25
               </button>
             </div>
@@ -39,7 +39,7 @@ const Donate = () => {
               />
             </div>
 
-            <button className="w-full bg-[#E95420] text-white px-6 py-3 rounded-md hover:bg-[#C7431B] transition-colors flex items-center justify-center">
+            <button className="w-full bg-[#000000] text-white px-6 py-3 rounded-md hover:bg-[#ffffff] hover:text-black transition-colors flex items-center justify-center">
               <CreditCard className="mr-2" />
               Donate Now
             </button>
