@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/">
               <img
-                src="ming-removebg-preview.ico"
+                src="ming-removebg-preview.png"
                 alt="MING Linux Logo"
                 height={200}
                 width={200}
